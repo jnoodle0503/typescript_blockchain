@@ -1,0 +1,17 @@
+{
+  "name": "typescript_project_pratice",
+  "version": "1.0.0",
+  "description": "typescript practice project",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "typescript": "^3.7.4"
+  }
+}
